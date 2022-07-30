@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Trebuchet;
+    border: none;
+    color: #062029;
+
+}
+
+body{
+    /* background-color: #146c8a; */
+    background-image: url("/img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: 30% 50%;
+    background-size: cover;   
+}
+/* Tira aquela borda de enfase no input */
+textarea:focus,input:focus{
+    outline:none;
+}
+
+#titulo{
+    position: relative;
+    border-color: #12405a;
+    color: #146c8a;
+    align-self: center;
+    margin-top: 3%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a{
+    font-size:.8rem;
+}
+
+a:hover{
+    color: #12405a;
+}
+
+/*Container Login  */
+#login-container{
+    /* background-color: #1da6be; */
+    background-color: rgba(30, 175, 163, 0.4);
+    /* background-color: transparent; */
+    width: 400px;
+    height: 530px;
+    /* Faz centralizar o elemento na tela usando esse margin */
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px 30px;
+    margin-top: 7vh;
+    text-align: center;
+    border-radius: 10px;    
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-style: oblique;
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+
+input{
+   border-bottom: 2px solid #12405a;
+   padding: 10px; 
+   font-size: 1rem;
+   margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #146c8a;
+
+}
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border:none; 
+    height:40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:#12405a;
+    background-color:#146c8a;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color:#00bfd1;
+    transition: .5s;
+}
+#senha-esquecida{
+    text-align: right;
+    display: block;
+}
+#rede-social-container, #rede-social-container p{
+    margin-bottom: 20px;
+}
+
+#rede-social-container i{
+    height: 40px;
+    width:40px;
+    color: #ffff;
+    /* background-color: #00bfd1; */
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f{
+background-color: #3b5998;
+}
+.fa-linkedin{
+    background-color: #0077b5;
+}
+#registro-container p, a{
+    color: #1d84a7;
+}
+/* i{
+    padding: 10px;
+    color: #002ebe;
+    background-color: #1da6be;
+    border-radius: 100%;
+}
+#button{
+    color:#ffff;
+    width: 150px;
+    height: 35px;
+    background-color:#1da6be;
+    border-radius: 8px;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+} */
+
